@@ -45,6 +45,8 @@ TB-Toko-Bangunan/
 *   **Fase 4A: Sinkronisasi Dokumentasi & Finalisasi Identitas** ➡️ **[COMPLETED]**
     *   Pembersihan nama dan identitas project yang rancu di dokumen target.
     *   Pembaruan file status migrasi dan penyusunan checklist hapus repositori lama.
+*   **Fase 4B: Adopsi Onboarding & Workflow** ➡️ **[COMPLETED]**
+    *   Adopsi dan adaptasi selektif berkas `onboarding/` (instruksi ChatGPT, room prompts) dan `workflow/` (working system, existing mode, project starter checklist) dari referensi `WK-Workflow-Kit` ke dalam repositori `TB-Toko-Bangunan`.
 *   **Fase 4: Integrasi & Verifikasi Akhir** ➡️ **[PENDING]**
     *   Pengujian cross-connection antara frontend dan backend secara lokal.
 *   **Fase 5: Arsip / Hapus Repositori Lama di GitHub** ➡️ **[PENDING]**
@@ -67,4 +69,4 @@ Sebelum repositori legacy `tb-frontend` dan `tb-backend` dihapus dari GitHub, pa
 - [ ] Persetujuan akhir dari Head of Project untuk penghapusan repositori lama telah diperoleh.
 
 ---
-*Status Akhir: Fase 4A - Sinkronisasi Identitas selesai. Siap untuk Fase 4.*
+*Status Akhir: Fase 4B - Adopsi Onboarding & Workflow selesai. Siap untuk Fase 4.*

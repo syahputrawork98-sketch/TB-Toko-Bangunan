@@ -29,6 +29,7 @@
 - **Fase 2 - Migrasi Frontend (`tb-frontend`)**: Folder kode frontend berhasil dipindahkan tanpa membawa folder `.git` lama, dependencies, atau file `.env` rahasia. Build turbopack Next.js terverifikasi sukses.
 - **Fase 3 - Migrasi Backend (`tb-backend`)**: Folder kode backend Express & Prisma berhasil dipindahkan. Inisialisasi database SQLite lokal bersih dan seeding berhasil. Uji dev server berjalan lancar pada port `5000`.
 - **Fase 4A - Sinkronisasi Identitas**: Semua dokumen dibersihkan dari nama/path lama yang membingungkan. Menambahkan checklist kesiapan sebelum repo lama boleh dihapus/diarsipkan.
+- **Fase 4B - Adopsi Onboarding & Workflow**: Berkas-berkas alur kerja (`WORKING_SYSTEM.md`, `EXISTING_MODE.md`, `PROJECT_STARTER_CHECKLIST.md`) dan instruksi onboarding ChatGPT (`CHATGPT_PROJECT_INSTRUCTIONS.md`, Roomprompts) berhasil diadopsi dan disesuaikan.
 - **Aturan Keamanan Tambahan**: Repositori lama (`tb-frontend` dan `tb-backend` mandiri) **BELUM BOLEH** dihapus dari GitHub sebelum seluruh checklist di berkas [MIGRATION_PLAN.md](../project/MIGRATION_PLAN.md) terpenuhi.
 
 ---
