@@ -12,7 +12,7 @@ Seluruh rincian teknis mendalam mengenai antarmuka, endpoint API, dan struktur d
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **F00** | Existing Project Zero Point | Global / Base | Global | Titik baseline pencatatan fungsional sistem pasca-migrasi dan konsolidasi monorepo target. | **Baseline** | [Detail](features/F00_EXISTING_PROJECT_ZERO_POINT.md) |
 | **F01** | Authentication & Role-Based Access | Security / Auth | Admin & CS | Autentikasi pengguna berbasis JWT cookie HTTP-only dengan pembagian akses rute Admin vs CS. | **Partial** | [Detail](features/F01_AUTHENTICATION_ROLE_BASED_ACCESS.md) |
-| **F02** | Admin Dashboard | Client / Server | Admin | Dasbor visual statistik penjualan, ringkasan kas, dan grafik tren laba kotor. | **Draft** | [Detail](features/F02_ADMIN_DASHBOARD.md) |
+| **F02** | Admin Dashboard | Client / Server | Admin | Dasbor visual statistik penjualan, ringkasan kas, dan grafik tren laba kotor. | **Implemented** | [Detail](features/F02_ADMIN_DASHBOARD.md) |
 | **F03** | Inventory Management | Client / Server | Admin | Pengelolaan data inventaris barang (CRUD), penyesuaian stok, serta pembedaan harga beli (HPP) vs harga jual. | **Draft** | [Detail](features/F03_INVENTORY_MANAGEMENT.md) |
 | **F04** | Staff Management | Client / Server | Admin | Pendaftaran akun kasir/CS baru serta pengaturan status keaktifan akun staff. | **Draft** | [Detail](features/F04_STAFF_MANAGEMENT.md) |
 | **F05** | Shop Settings | Client / Server | Admin | Pengaturan profil fisik toko (nama, alamat, telepon struk) dan batas minimum stok tipis global. | **Draft** | [Detail](features/F05_SHOP_SETTINGS.md) |
