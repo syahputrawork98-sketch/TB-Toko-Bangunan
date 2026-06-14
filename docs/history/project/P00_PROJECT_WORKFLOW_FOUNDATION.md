@@ -1,4 +1,4 @@
-# Feature Batch F00 — Project Workflow Foundation
+# Project Checkpoint P00 — Project Workflow Foundation
 
 ## 🎯 Tujuan Fondasi Workflow
 Menetapkan alur kerja standar dan batasan keamanan pengembangan sistem **TB-Toko-Bangunan** untuk memastikan tidak ada kode yang pecah (broken code), perubahan tidak sengaja pada data sensitif, atau refactor yang tidak terarah.

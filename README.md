@@ -32,7 +32,8 @@ Seluruh panduan teknis, alur kerja, dan operasional sistem telah didokumentasika
 11. **Peta Fitur Data Database (Data Map)**: Lihat [FEATURE_DATA_MAP.md](docs/database/FEATURE_DATA_MAP.md) untuk pemetaan model data dan tabel tingkat tinggi.
 12. **Local Setup Guide**: Ikuti panduan instalasi dan instruksi running di [LOCAL_SETUP.md](docs/development/LOCAL_SETUP.md).
 13. **Current Status**: Status fitur dan riwayat rilis modul saat ini tercatat di [CURRENT_STATUS.md](docs/history/CURRENT_STATUS.md).
-14. **Riwayat Fitur Global (Feature History)**: Lihat indeks batch riwayat fitur lengkap di [FEATURE_HISTORY.md](docs/history/FEATURE_HISTORY.md).
+14. **Riwayat Fitur Aplikasi (Feature History)**: Lihat indeks batch riwayat fitur lengkap di [FEATURE_HISTORY.md](docs/history/FEATURE_HISTORY.md).
+15. **Riwayat Checkpoint Proyek (Checkpoint History)**: Lihat indeks tahapan pengerjaan infrastruktur proyek di [PROJECT_CHECKPOINT_HISTORY.md](docs/history/PROJECT_CHECKPOINT_HISTORY.md).
 
 ---
 

@@ -1,4 +1,4 @@
-# Feature Batch F01 — Documentation Structure
+# Project Checkpoint P01 — Documentation Structure
 
 ## 🎯 Tujuan Struktur Dokumentasi
 Memastikan seluruh informasi teknis, riwayat status, dan onboarding pengembang terdokumentasi dengan rapi dan terstruktur secara logis. Hal ini meminimalkan waktu onboarding AI/pengembang baru dan menjaga agar context window AI tetap efisien.

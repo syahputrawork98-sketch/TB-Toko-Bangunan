@@ -6,17 +6,17 @@ Dokumen ini memetakan area API backend tingkat tinggi yang diimplementasikan pad
 
 ## 🗺️ Peta Fitur API (API Map)
 
-| Feature | API Area | Route/Controller/Service | Auth/Role | Status | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Authentication** | Auth API | `Draft / Needs Discovery` | Public / Token Validation | **Done** | Log masuk, log keluar, validasi sesi token via HTTP-only cookie. |
-| **Admin Dashboard** | Analytics API | `Draft / Needs Discovery` | Admin | **Done** | Endpoint data statistik omzet toko dan grafik laba bersih harian. |
-| **Inventory Management** | Products API | `Draft / Needs Discovery` | Admin | **Done** | Endpoint CRUD data produk/barang lengkap dengan info HPP. |
-| **Staff Management** | Staff API | `Draft / Needs Discovery` | Admin | **Done** | Endpoint pendaftaran kasir/staff baru oleh admin. |
-| **Shop Settings** | Settings API | `Draft / Needs Discovery` | Admin | **Done** | Endpoint konfigurasi detail toko dan ambang batas limit stok. |
-| **CS POS Terminal** | Transactions API | `Draft / Needs Discovery` | CS (Staff) | **Done** | Endpoint pembuatan transaksi, pemotongan stok atomic, dan pencetakan struk. |
-| **CS Inventory Read-only** | Products (CS) API | `Draft / Needs Discovery` | CS (Staff) | **Done** | Endpoint eksplorasi stok produk (HPP disembunyikan/dihilangkan dari response). |
-| **CS Transaction History** | Shift/Transactions API| `Draft / Needs Discovery` | CS (Staff) | **Done** | Endpoint riwayat transaksi kasir berdasarkan sesi shift kasir aktif. |
-| **CS Profile** | Profile API | `Draft / Needs Discovery` | CS (Staff) | **Done** | Endpoint pembaruan profil kasir mandiri. |
+| Feature ID | Feature Name | API Area | Route/Controller/Service | Auth/Role | Status | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **F01** | Authentication & Role-Based Access | Auth API | `Draft / Needs Discovery` | Public / Token Validation | **Draft / Needs Discovery** | Log masuk, log keluar, validasi sesi token via HTTP-only cookie. |
+| **F02** | Admin Dashboard | Analytics API | `Draft / Needs Discovery` | Admin | **Draft / Needs Discovery** | Endpoint data statistik omzet toko dan grafik laba bersih harian. |
+| **F03** | Inventory Management | Products API | `Draft / Needs Discovery` | Admin | **Draft / Needs Discovery** | Endpoint CRUD data produk/barang lengkap dengan info HPP. |
+| **F04** | Staff Management | Staff API | `Draft / Needs Discovery` | Admin | **Draft / Needs Discovery** | Endpoint pendaftaran kasir/staff baru oleh admin. |
+| **F05** | Shop Settings | Settings API | `Draft / Needs Discovery` | Admin | **Draft / Needs Discovery** | Endpoint konfigurasi detail toko dan ambang batas limit stok. |
+| **F06** | CS POS Terminal | Transactions API | `Draft / Needs Discovery` | CS (Staff) | **Draft / Needs Discovery** | Endpoint pembuatan transaksi, pemotongan stok atomic, dan pencetakan struk. |
+| **F07** | CS Inventory Read-only | Products (CS) API | `Draft / Needs Discovery` | CS (Staff) | **Draft / Needs Discovery** | Endpoint eksplorasi stok produk (HPP disembunyikan/dihilangkan dari response). |
+| **F08** | CS Transaction History | Shift/Transactions API| `Draft / Needs Discovery` | CS (Staff) | **Draft / Needs Discovery** | Endpoint riwayat transaksi kasir berdasarkan sesi shift kasir aktif. |
+| **F09** | CS Profile | Profile API | `Draft / Needs Discovery` | CS (Staff) | **Draft / Needs Discovery** | Endpoint pembaruan profil kasir mandiri. |
 
 ---
 

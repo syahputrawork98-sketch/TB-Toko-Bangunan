@@ -1,4 +1,4 @@
-# Feature Batch F05-CP — Onboarding Role Expansion: Roomchat Spesialis
+# Project Checkpoint P05-CP — Onboarding Role Expansion: Roomchat Spesialis
 
 ## 🎯 Tujuan Perluasan Peran
 Memperluas sistem kerja tim AI dengan peran **Roomchat Spesialis** untuk mematangkan konsep dan opsi solusi teknis secara terfokus sebelum dijadikan instruksi batch resmi oleh Roomchat 00 (Manager).

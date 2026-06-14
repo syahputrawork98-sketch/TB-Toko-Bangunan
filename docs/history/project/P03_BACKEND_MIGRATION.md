@@ -1,4 +1,4 @@
-# Feature Batch F03 — Backend Migration
+# Project Checkpoint P03 — Backend Migration
 
 ## 🎯 Tujuan Migrasi Backend
 Memindahkan kode server (backend Express.js 5 & Prisma ORM) ke folder `server/` (sebelumnya `tb-backend/` - legacy) di bawah repositori terpadu **TB-Toko-Bangunan** guna mempermudah sinkronisasi API dan skema database.

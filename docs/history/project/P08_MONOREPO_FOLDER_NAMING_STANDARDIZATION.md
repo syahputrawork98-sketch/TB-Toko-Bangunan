@@ -1,4 +1,4 @@
-# Feature Batch F08 — Monorepo Folder Naming Standardization
+# Project Checkpoint P08 — Monorepo Folder Naming Standardization
 
 ## 🎯 Tujuan Standardisasi
 Menstandarkan nama folder sub-proyek di dalam repositori monorepo dari nama spesifik proyek lama (`tb-frontend` dan `tb-backend`) menjadi nama yang lebih bersih dan profesional (`client` dan `server`). Hal ini menyelaraskan repositori dengan best practices monorepo modern dan mempermudah pemeliharaan jangka panjang.

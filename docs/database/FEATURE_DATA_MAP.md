@@ -6,17 +6,17 @@ Dokumen ini memetakan model data/tabel database tingkat tinggi yang digunakan ol
 
 ## 🗺️ Peta Fitur Data (Data Map)
 
-| Feature | Model/Table | Used By | Status | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| **Authentication** | `Draft / Needs Discovery` | Auth, Staff Controller | **Done** | Menyimpan kredensial pengguna (kata sandi ter-hash) dan peran. |
-| **Admin Dashboard** | `Draft / Needs Discovery` | Analytics Controller | **Done** | Mengagregasi data transaksi untuk grafik performa keuangan. |
-| **Inventory Management** | `Draft / Needs Discovery` | Products Controller | **Done** | Menyimpan data produk, harga beli (HPP), harga jual, dan jumlah stok. |
-| **Staff Management** | `Draft / Needs Discovery` | Staff Controller | **Done** | Menyimpan detail profil staff kasir (CS). |
-| **Shop Settings** | `Draft / Needs Discovery` | Settings Controller | **Done** | Menyimpan konfigurasi global toko. |
-| **CS POS Terminal** | `Draft / Needs Discovery` | Transactions Controller | **Done** | Menyimpan item transaksi, catatan kasir, nominal, dan pemotongan stok. |
-| **CS Inventory Read-only** | `Draft / Needs Discovery` | Products Controller (CS) | **Done** | Mengakses daftar produk (stok) tanpa memperlihatkan field harga beli (HPP). |
-| **CS Transaction History** | `Draft / Needs Discovery` | Transactions Controller | **Done** | Mengakses data transaksi berdasarkan ID kasir dan status shift kasir. |
-| **CS Profile** | `Draft / Needs Discovery` | Profile Controller | **Done** | Mengakses dan mengubah detail profil akun kasir mandiri. |
+| Feature ID | Feature Name | Model/Table | Used By | Status | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **F01** | Authentication & Role-Based Access | `Draft / Needs Discovery` | Auth, Staff Controller | **Draft / Needs Discovery** | Menyimpan kredensial pengguna (kata sandi ter-hash) dan peran. |
+| **F02** | Admin Dashboard | `Draft / Needs Discovery` | Analytics Controller | **Draft / Needs Discovery** | Mengagregasi data transaksi untuk grafik performa keuangan. |
+| **F03** | Inventory Management | `Draft / Needs Discovery` | Products Controller | **Draft / Needs Discovery** | Menyimpan data produk, harga beli (HPP), harga jual, dan jumlah stok. |
+| **F04** | Staff Management | `Draft / Needs Discovery` | Staff Controller | **Draft / Needs Discovery** | Menyimpan detail profil staff kasir (CS). |
+| **F05** | Shop Settings | `Draft / Needs Discovery` | Settings Controller | **Draft / Needs Discovery** | Menyimpan konfigurasi global toko. |
+| **F06** | CS POS Terminal | `Draft / Needs Discovery` | Transactions Controller | **Draft / Needs Discovery** | Menyimpan item transaksi, catatan kasir, nominal, dan pemotongan stok. |
+| **F07** | CS Inventory Read-only | `Draft / Needs Discovery` | Products Controller (CS) | **Draft / Needs Discovery** | Mengakses daftar produk (stok) tanpa memperlihatkan field harga beli (HPP). |
+| **F08** | CS Transaction History | `Draft / Needs Discovery` | Transactions Controller | **Draft / Needs Discovery** | Mengakses data transaksi berdasarkan ID kasir dan status shift kasir. |
+| **F09** | CS Profile | `Draft / Needs Discovery` | Profile Controller | **Draft / Needs Discovery** | Mengakses dan mengubah detail profil akun kasir mandiri. |
 
 ---
 

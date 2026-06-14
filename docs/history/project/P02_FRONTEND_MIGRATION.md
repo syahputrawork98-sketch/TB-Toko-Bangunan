@@ -1,4 +1,4 @@
-# Feature Batch F02 — Frontend Migration
+# Project Checkpoint P02 — Frontend Migration
 
 ## 🎯 Tujuan Migrasi Frontend
 Memindahkan kode antarmuka (frontend Next.js 16) dari repositori lama yang terpisah ke dalam folder `client/` (sebelumnya `tb-frontend/` - legacy) di bawah repositori terpadu **TB-Toko-Bangunan** guna menyatukan pengelolaan repositori.

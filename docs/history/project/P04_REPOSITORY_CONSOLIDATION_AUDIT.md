@@ -1,4 +1,4 @@
-# Feature Batch F04 — Repository Consolidation Audit
+# Project Checkpoint P04 — Repository Consolidation Audit
 
 ## 🎯 Tujuan Konsolidasi & Audit
 Melakukan sinkronisasi identitas, mengadopsi alur kerja onboarding baru, dan memastikan isolasi repositori terpadu bersih dari sisa-sisa file migrasi yang sensitif atau berlebih.
