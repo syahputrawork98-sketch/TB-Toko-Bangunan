@@ -41,6 +41,7 @@
 - **Fase 4B - Adopsi Onboarding & Workflow**: Berkas-berkas alur kerja (`WORKING_SYSTEM.md`, `EXISTING_MODE.md`, `PROJECT_STARTER_CHECKLIST.md`) dan instruksi onboarding ChatGPT (`CHATGPT_PROJECT_INSTRUCTIONS.md`, Roomprompts) berhasil diadopsi dan disesuaikan.
 - **Fase 4C - Audit Akhir Repositori**: Struktur target, kelengkapan berkas teknis, dan isolasi Git terhadap file sensitif/terlarang (`.env`, `dev.db`, `node_modules`, build folder) telah divalidasi 100% aman dan bersih.
 - **Aturan Keamanan Tambahan**: Repositori lama (`tb-frontend` dan `tb-backend` mandiri) kini sudah dinyatakan **aman untuk diarsipkan/dihapus** oleh User setelah seluruh berkas terbukti berjalan stabil di repositori terpadu `TB-Toko-Bangunan`.
+- **Fase 5 - Perluasan Peran Onboarding (Roomchat Spesialis)**: Menambahkan peran Roomchat Spesialis sebagai AI diskusi teknis terfokus sebelum pembuatan batch resmi oleh Roomchat 00. Membuat panduan prompt `ROOM_SPECIALIST_PROMPT.md` dan memperbarui `WORKING_SYSTEM.md` serta `CHATGPT_PROJECT_INSTRUCTIONS.md` untuk mencerminkan alur kerja baru. Status pengujian integrasi tetap dipertahankan *Pending*.
 
 ---
 

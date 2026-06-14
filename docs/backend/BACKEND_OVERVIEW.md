@@ -6,7 +6,7 @@ Dokumen ini mendokumentasikan spesifikasi teknis, rute API, dan arsitektur backe
 ---
 
 ## Current Backend Status
-* **Status**: **Ready for Consolidation** (Stabil pada repositori lama, siap dipindahkan).
+* **Status**: **Consolidated in TB-Toko-Bangunan / Pending Local Integration Test**
 * **Database Driver**: Prisma Client dengan database target SQLite.
 
 ---

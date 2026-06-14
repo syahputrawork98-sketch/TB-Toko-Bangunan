@@ -7,7 +7,8 @@ Sistem kerja **TB-Toko-Bangunan** dirancang untuk menjamin keamanan, konsistensi
 ## 🏛️ Prinsip Utama
 1.  **Git & GitHub sebagai Source of Truth**: Seluruh perubahan kode harus dilacak dan dicatat dalam repositori terpadu `TB-Toko-Bangunan`.
 2.  **Pemisahan Tugas AI**: 
-    *   Sesi konseptual/perencanaan dilakukan oleh **Roomchat 00 (Manager)** di ChatGPT.
+    *   Sesi diskusi teknis mendalam dan spesifik dilakukan oleh **Roomchat Spesialis** di ChatGPT.
+    *   Sesi konseptual/perencanaan umum dan koordinasi dilakukan oleh **Roomchat 00 (Manager)** di ChatGPT.
     *   Sesi peninjauan kritis dilakukan oleh **Roomchat 01 (Reviewer)** di ChatGPT.
     *   Eksekusi pengubahan berkas lokal dilakukan oleh **Gemini Anti-Gravity** di Anti-Gravity IDE.
 3.  **Dilarang Git Commit/Push Otomatis**: AI eksekutor dilarang melakukan commit atau push secara mandiri. Tahap ini sepenuhnya berada di bawah kendali manual User (Owner).
@@ -16,10 +17,19 @@ Sistem kerja **TB-Toko-Bangunan** dirancang untuk menjamin keamanan, konsistensi
 ---
 
 ## 👥 Pembagian Peran
--   **User (Owner)**: Pemilik proyek yang memegang kendali penuh atas persetujuan rencana, pengujian runtime, serta operasi git (commit, push, merge).
--   **Roomchat 00 (Manager)**: Merencanakan alur kerja, mendefinisikan scope batch fitur baru, dan menyusun instruksi teknis untuk eksekutor.
+-   **User (Owner)**: Pemilik proyek yang memegang kendali penuh atas persetujuan rencana, pengujian runtime, diskusi dengan spesialis, serta operasi git (commit, push, merge).
+-   **Roomchat Spesialis**: Berperan menganalisis masalah teknis secara spesifik berdasarkan bidang keahlian (Frontend, Backend, Database, dsb.) untuk memberikan rekomendasi solusi. Peran ini **tidak membuat batch fitur resmi** dan **tidak memberi instruksi langsung kepada Gemini Anti-Gravity**. Luaran akhirnya wajib berupa *Technical Discussion Summary* untuk diumpankan ke Roomchat 00.
+-   **Roomchat 00 (Manager)**: Merencanakan alur kerja, mendefinisikan scope batch fitur baru (mengonsolidasikan masukan dari Roomchat Spesialis), dan menyusun instruksi teknis resmi untuk eksekutor.
 -   **Roomchat 01 (Reviewer)**: Menguji dan mengaudit rencana yang disusun Room 00 (Batch Gate) untuk meminimalkan risiko regresi kode.
--   **Gemini Anti-Gravity**: Melakukan coding, penulisan dokumentasi, dan verifikasi lokal di Anti-Gravity IDE berdasarkan rencana yang disetujui.
+-   **Gemini Anti-Gravity**: Melakukan coding, penulisan dokumentasi, dan verifikasi lokal di Anti-Gravity IDE berdasarkan rencana resmi yang disetujui.
+
+---
+
+## 🔄 Alur Kerja Sistem (Workflow Path)
+Pengembangan fitur mengikuti alur teratur berikut:
+```
+User ➔ Roomchat Spesialis ➔ Technical Discussion Summary ➔ Roomchat 00 ➔ Roomchat 01 (jika perlu) ➔ Gemini Anti-Gravity ➔ User
+```
 
 ---
 

@@ -6,7 +6,7 @@ Dokumen ini mendokumentasikan spesifikasi teknis, struktur, dan konfigurasi dari
 ---
 
 ## Current Frontend Status
-* **Status**: **Ready for Consolidation** (Stabil pada repositori lama, siap dipindahkan).
+* **Status**: **Consolidated in TB-Toko-Bangunan / Pending Local Integration Test**
 * **Dependency Check**: Menggunakan Next.js 16.2.4 dan React 19.2.4.
 
 ---
