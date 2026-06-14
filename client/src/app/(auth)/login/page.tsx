@@ -30,7 +30,7 @@ export default function LoginPage() {
 
       // 2. Redirect based on backend role
       const roleMap: { [key: string]: string } = {
-        'ADMIN': '/admin',
+        'ADMIN': '/admin/analytics',
         'CS': '/cs/pos'
       };
 
@@ -61,7 +61,7 @@ export default function LoginPage() {
 
       // 2. Redirect based on backend role
       const roleMap: { [key: string]: string } = {
-        'ADMIN': '/admin',
+        'ADMIN': '/admin/analytics',
         'CS': '/cs/pos'
       };
 
@@ -117,7 +117,7 @@ export default function LoginPage() {
         </form>
 
         {/* Dev Persona Login Section */}
-        {(process.env.NODE_ENV === 'development' || process.env.NEXT_PUBLIC_ENABLE_DEV_PERSONA_LOGIN === 'true') && (
+        {process.env.NODE_ENV === 'development' && process.env.NEXT_PUBLIC_ENABLE_DEV_PERSONA_LOGIN === 'true' && (
           <div className={styles.devPersonaSection}>
             <div className={styles.devPersonaDivider}>
               <span>DEVELOPER SUITE</span>
