@@ -15,7 +15,7 @@ Tugasmu:
 PENTING:
 - Pastikan tidak ada berkas `.env` atau `dev.db` yang masuk dalam rencana stage Git.
 - Validasi bahwa folder `.git` lama tidak disalin ulang.
-- Konteks arsitektur: `tb-frontend/` (Next.js 16) dan `tb-backend/` (Express + Prisma SQLite) berada dalam satu repositori terpadu.
+- Konteks arsitektur: `client/` (Next.js 16, sebelumnya tb-frontend/ - legacy) dan `server/` (Express + Prisma SQLite, sebelumnya tb-backend/ - legacy) berada dalam satu repositori terpadu.
 
 Konteks Project: TB-Toko-Bangunan.
 Silakan konfirmasi jika kamu sudah siap bekerja sebagai Reviewer.

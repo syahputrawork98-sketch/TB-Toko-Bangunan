@@ -12,7 +12,7 @@ Dokumen ini mendokumentasikan spesifikasi teknis, struktur, dan konfigurasi dari
 ---
 
 ## Frontend Details
-* **Source Path**: `tb-frontend/` (di dalam repositori utama `TB-Toko-Bangunan`).
+* **Source Path**: `client/` (di dalam repositori utama `TB-Toko-Bangunan`, sebelumnya `tb-frontend/` - legacy).
 * **Framework**: Next.js 16 (App Router).
 * **Bahasa**: TypeScript.
 * **Routing System**: Next.js App Router:
@@ -45,7 +45,7 @@ Sistem membaca konfigurasi API melalui:
 ---
 
 ## Next Step
-1. Salin seluruh direktori `tb-frontend/` (tanpa `.git`, `node_modules`, `.next`, `.env.local`).
+1. Salin seluruh direktori `client/` (tanpa `.git`, `node_modules`, `.next`, `.env.local`).
 2. Jalankan `npm install` bersih untuk men-download dependensi.
-3. Buat berkas `tb-frontend/.env.example` untuk panduan deployment/lokal.
+3. Buat berkas `client/.env.example` untuk panduan deployment/lokal.
 4. Lakukan pengetesan lokal dengan perintah `npm run dev` dan `npm run build`.

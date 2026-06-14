@@ -7,8 +7,8 @@ Selamat datang di repositori utama dan final **TB-Toko-Bangunan**. Repositori tu
 ## 📁 Struktur Repositori Terkonsolidasi
 
 Seluruh kode sumber dan dokumentasi diatur dalam folder berikut:
-* **`tb-frontend/`**: Kode aplikasi antarmuka web (Next.js 16) yang menyajikan dashboard Admin dan POS CS.
-* **`tb-backend/`**: Kode mesin server (Express.js & Prisma ORM) yang mengelola logika bisnis, autentikasi, dan database.
+* **`client/`** (sebelumnya `tb-frontend/` - legacy): Kode aplikasi antarmuka web (Next.js 16) yang menyajikan dashboard Admin dan POS CS.
+* **`server/`** (sebelumnya `tb-backend/` - legacy): Kode mesin server (Express.js & Prisma ORM) yang mengelola logika bisnis, autentikasi, dan database.
 * **`docs/`**: Seluruh dokumentasi teknis sistem terpusat (mengadopsi pola dokumentasi terstruktur dari referensi `WK-Workflow-Kit`).
 * **`README.md`**: Panduan navigasi utama ini.
 * **`.gitignore`**: Aturan pengabaian Git root terpusat untuk mengamankan data konfigurasi lokal.
@@ -38,7 +38,7 @@ Seluruh panduan teknis, alur kerja, dan operasional sistem telah didokumentasika
 
 ## 🚀 Memulai Cepat (Quick Start)
 
-Untuk menjalankan proyek secara lokal, pastikan Anda telah mengonfigurasi variabel lingkungan `.env` di masing-masing sub-folder (`tb-frontend` dan `tb-backend`) sesuai dengan berkas `.env.example` yang tersedia.
+Untuk menjalankan proyek secara lokal, pastikan Anda telah mengonfigurasi variabel lingkungan `.env` di masing-masing sub-folder (`client` dan `server`) sesuai dengan berkas `.env.example` yang tersedia.
 
 Info selengkapnya mengenai instalasi dependensi, sinkronisasi database Prisma, dan proses menjalankan server dapat dibaca pada [LOCAL_SETUP.md](docs/development/LOCAL_SETUP.md).
 

@@ -6,9 +6,9 @@ Menetapkan alur kerja standar dan batasan keamanan pengembangan sistem **TB-Toko
 ---
 
 ## 🏛️ Ringkasan Repositori Terpadu (Consolidated Repository)
-Proyek ini mengonsolidasikan repositori terpisah (`tb-frontend` dan `tb-backend` mandiri) ke dalam satu repositori terpadu **TB-Toko-Bangunan** dengan pembagian folder:
-- **`tb-frontend/`**: Berisi kode antarmuka berbasis Next.js 16.
-- **`tb-backend/`**: Berisi kode backend server Express.js 5 & database SQLite dengan Prisma ORM.
+Proyek ini mengonsolidasikan repositori terpisah (legacy `tb-frontend` dan legacy `tb-backend` mandiri) ke dalam satu repositori terpadu **TB-Toko-Bangunan** dengan pembagian folder:
+- **`client/`** (sebelumnya `tb-frontend/` - legacy): Berisi kode antarmuka berbasis Next.js 16.
+- **`server/`** (sebelumnya `tb-backend/` - legacy): Berisi kode backend server Express.js 5 & database SQLite dengan Prisma ORM.
 - **`docs/`**: Berisi seluruh panduan, petunjuk teknis, onboarding, dan sejarah status proyek.
 
 ---

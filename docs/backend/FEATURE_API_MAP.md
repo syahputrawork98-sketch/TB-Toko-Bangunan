@@ -1,6 +1,6 @@
 # High-Level Feature API Map (Backend)
 
-Dokumen ini memetakan area API backend tingkat tinggi yang diimplementasikan pada folder `tb-backend` Express.js.
+Dokumen ini memetakan area API backend tingkat tinggi yang diimplementasikan pada folder `server/` (sebelumnya `tb-backend` Express.js - legacy).
 
 ---
 

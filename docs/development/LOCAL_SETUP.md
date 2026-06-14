@@ -14,11 +14,11 @@ Pastikan komputer Anda sudah terinstal:
 
 ---
 
-## 🎨 Setup Frontend (`tb-frontend`)
+## 🎨 Setup Frontend (`client`)
 
 1. **Masuk ke folder frontend**:
    ```bash
-   cd tb-frontend
+   cd client
    ```
 
 2. **Instal dependensi**:
@@ -41,11 +41,11 @@ Pastikan komputer Anda sudah terinstal:
 
 ---
 
-## 🏗️ Setup Backend (`tb-backend`)
+## 🏗️ Setup Backend (`server`)
 
 1. **Masuk ke folder backend**:
    ```bash
-   cd ../tb-backend
+   cd ../server
    ```
 
 2. **Instal dependensi**:
@@ -91,4 +91,4 @@ Setelah berhasil melakukan *seeding* database, gunakan akun berikut untuk masuk 
 
 ### Database File Lock (Isu Windows SQLite)
 * **Masalah**: Pesan error "database file is locked" atau kegagalan penulisan saat transaksi.
-* **Solusi**: Pastikan tidak ada aplikasi database viewer pihak ketiga yang sedang membuka file `tb-backend/prisma/dev.db` secara eksklusif. Matikan dev server backend sebentar, lalu jalankan `npx prisma generate` ulang.
+* **Solusi**: Pastikan tidak ada aplikasi database viewer pihak ketiga yang sedang membuka file `server/prisma/dev.db` secara eksklusif. Matikan dev server backend sebentar, lalu jalankan `npx prisma generate` ulang.

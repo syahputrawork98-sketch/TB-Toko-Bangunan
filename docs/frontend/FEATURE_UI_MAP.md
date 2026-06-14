@@ -1,6 +1,6 @@
 # High-Level Feature UI Map (Frontend)
 
-Dokumen ini memetakan halaman antarmuka pengguna (UI) tingkat tinggi yang diimplementasikan pada folder `tb-frontend` Next.js.
+Dokumen ini memetakan halaman antarmuka pengguna (UI) tingkat tinggi yang diimplementasikan pada folder `client/` (sebelumnya `tb-frontend` Next.js - legacy).
 
 ---
 

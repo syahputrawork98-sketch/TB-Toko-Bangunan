@@ -8,7 +8,7 @@ Dokumen ini mendokumentasikan desain database, relasi tabel, dan aturan bisnis t
 ## Current Database Status
 * **Status**: **Stable (SQLite)**.
 * **ORM**: Prisma ORM (`prisma-client-js`).
-* **Lokasi Skema**: `tb-backend/prisma/schema.prisma`.
+* **Lokasi Skema**: `server/prisma/schema.prisma` (sebelumnya `tb-backend/prisma/schema.prisma` - legacy).
 
 ---
 
@@ -69,7 +69,7 @@ Pada tabel `TransactionItem`, harga modal (`costPrice`) disalin langsung dari ha
 ---
 
 ## Seed Data
-Seed data diatur pada `tb-backend/prisma/seed.ts` yang otomatis menginisialisasi:
+Seed data diatur pada `server/prisma/seed.ts` yang otomatis menginisialisasi:
 - User Admin: `admin` (password: `admin123`)
 - User CS: `cs` (password: `cs123`)
 - Setting toko awal.

@@ -6,9 +6,8 @@ Dokumen ini berisi instruksi siap copy-paste untuk setup Project (Custom Instruc
 
 ## 🎯 Konteks Proyek: TB-Toko-Bangunan
 **TB-Toko-Bangunan** adalah repositori terpadu (consolidated repository) tunggal yang menggabungkan seluruh komponen aplikasi manajemen Toko Bangunan (TB). 
-*   **tb-frontend**: Folder aplikasi antarmuka web (Next.js 16 + Zustand).
-*   **tb-backend**: Folder engine backend (Express.js 5 + Prisma ORM + SQLite).
-*   **docs**: Folder dokumentasi teknis dan riwayat fitur terpusat.
+*   **client**: Folder aplikasi antarmuka web (Next.js 16 + Zustand, sebelumnya `tb-frontend` - legacy).
+*   **server**: Folder engine backend (Express.js 5 + Prisma ORM + SQLite, sebelumnya `tb-backend` - legacy).
 *   *Catatan Legacy*: Repositori lama (`tb-frontend` dan `tb-backend` terpisah di GitHub) sudah tidak digunakan lagi untuk pengembangan aktif (diarsipkan).
 
 Sistem kerja diadaptasi dari referensi pola manajemen *WK-Workflow-Kit* yang membagi interaksi menjadi:
@@ -52,8 +51,8 @@ Posisikan dirimu sesuai dengan role yang diminta oleh user:
 - Roomchat Spesialis (berdiskusi teknis spesifik per topik/fitur, menganalisis solusi teknis, tidak membuat batch resmi/tidak memberi instruksi langsung ke Gemini, dan wajib mengeluarkan Technical Discussion Summary).
 
 Repositori ini adalah repositori tunggal terpadu berisi subfolder:
-- tb-frontend/ (Next.js 16)
-- tb-backend/ (Express + Prisma SQLite)
+- client/ (Next.js 16, sebelumnya tb-frontend/ - legacy)
+- server/ (Express + Prisma SQLite, sebelumnya tb-backend/ - legacy)
 - docs/ (Dokumentasi terpusat)
 
 Selalu patuhi aturan berikut:

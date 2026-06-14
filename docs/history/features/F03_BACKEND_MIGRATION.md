@@ -1,12 +1,12 @@
 # Feature Batch F03 — Backend Migration
 
 ## 🎯 Tujuan Migrasi Backend
-Memindahkan kode server (backend Express.js 5 & Prisma ORM) ke folder `tb-backend/` di bawah repositori terpadu **TB-Toko-Bangunan** guna mempermudah sinkronisasi API dan skema database.
+Memindahkan kode server (backend Express.js 5 & Prisma ORM) ke folder `server/` (sebelumnya `tb-backend/` - legacy) di bawah repositori terpadu **TB-Toko-Bangunan** guna mempermudah sinkronisasi API dan skema database.
 
 ---
 
 ## 📦 Ringkasan Migrasi
-- Direktori `tb-backend/` dipindahkan ke root `TB-Toko-Bangunan`.
+- Direktori `server/` (sebelumnya `tb-backend/` - legacy) dipindahkan ke root `TB-Toko-Bangunan`.
 - Folder dependencies (`node_modules`) dan folder `.git` sub-proyek lama dibuang sebelum proses penyalinan.
 - Berkas database lokal SQLite `prisma/dev.db` dan kredensial `.env` tidak diikutsertakan.
 - Database lokal dibuat bersih dari awal menggunakan perintah migrasi Prisma, dilanjutkan dengan seeding data dummy/awal menggunakan `seed.ts` lokal.

@@ -15,7 +15,8 @@ Dokumen ini mencatat indeks riwayat pengembangan fitur (Feature Batch) yang dike
 | **F04** | Repository Consolidation Audit | Repo / Workflow | Melakukan sinkronisasi identitas berkas, adopsi onboarding, dan audit keamanan terhadap file sensitif/terlarang di Git. | **Done** | [Detail](features/F04_REPOSITORY_CONSOLIDATION_AUDIT.md) |
 | **F05-CP** | Onboarding Role Expansion: Roomchat Spesialis | Dokumentasi / Workflow | Menambahkan peran Roomchat Spesialis ke sistem kerja untuk diskusi teknis mendalam sebelum konsolidasi rencana oleh Room 00. | **Done** | [Detail](features/F05_ONBOARDING_ROLE_EXPANSION.md) |
 | **F06** | Feature History Foundation & High-Level Feature Maps | Dokumentasi / Arsitektur | Membuat indeks riwayat fitur global dan memetakan komponen UI, endpoint API, dan database secara garis besar (high-level map). | **Done** | [Detail](FEATURE_HISTORY.md) |
-| **F07** | Retroactive Feature History Backfill | Dokumentasi / Histori | Melengkapi riwayat kronologis pengerjaan batch yang terlewat (F02, F03, F04, F05-CP) berdasarkan log dokumen status sebelumnya. | **Done** | *File Ini* |
+| **F07** | Retroactive Feature History Backfill | Dokumentasi / Histori | Melengkapi riwayat kronologis pengerjaan batch yang terlewat (F02, F03, F04, F05-CP) berdasarkan log dokumen status sebelumnya. | **Done** | [Detail](FEATURE_HISTORY.md) |
+| **F08** | Monorepo Folder Naming Standardization | Repo / Dokumentasi | Rename folder `tb-frontend` / `tb-backend` menjadi `client` / `server` dan melakukan sinkronisasi path di seluruh dokumen. | **Done** | [Detail](features/F08_MONOREPO_FOLDER_NAMING_STANDARDIZATION.md) |
 
 ---
 

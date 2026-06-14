@@ -15,7 +15,7 @@ Tugasmu:
 8. Menentukan apakah batch berikutnya memerlukan persetujuan manual User atau audit oleh Room 01 (Reviewer).
 
 PENTING (Discovery-First & Git Rules):
-- Pahami bahwa repositori ini adalah repositori tunggal terpadu berisi folder `tb-frontend/` (Next.js 16) dan `tb-backend/` (Express + SQLite).
+- Pahami bahwa repositori ini adalah repositori tunggal terpadu berisi folder `client/` (Next.js 16, sebelumnya tb-frontend/ - legacy) dan `server/` (Express + SQLite, sebelumnya tb-backend/ - legacy).
 - Jangan lakukan refactor besar-besaran atau modifikasi kode existing sebelum fitur tersebut dipetakan dengan jelas di folder `docs/`.
 - File sensitif seperti `.env` dan `prisma/dev.db` harus selalu diabaikan oleh Git. Pastikan tidak memberikan instruksi yang melanggar aturan pengabaian ini.
 

@@ -12,7 +12,7 @@ Dokumen ini mendokumentasikan spesifikasi teknis, rute API, dan arsitektur backe
 ---
 
 ## Backend Details
-* **Source Path**: `tb-backend/` (di dalam repositori utama `TB-Toko-Bangunan`).
+* **Source Path**: `server/` (di dalam repositori utama `TB-Toko-Bangunan`, sebelumnya `tb-backend/` - legacy).
 * **Framework**: Express.js 5.2.1.
 * **Language**: TypeScript (dijalankan lewat `ts-node-dev` untuk live reload saat development).
 * **API Style**: RESTful API.
@@ -30,7 +30,7 @@ Dokumen ini mendokumentasikan spesifikasi teknis, rute API, dan arsitektur backe
 ---
 
 ## Environment Variables
-Konfigurasi lingkungan yang dibutuhkan (dibuat di `.env` sub-folder `tb-backend/`):
+Konfigurasi lingkungan yang dibutuhkan (dibuat di `.env` sub-folder `server/`):
 * `PORT`: Port jalannya server backend (default: `5000`).
 * `DATABASE_URL`: Alamat database relasional (SQLite: `file:./dev.db`).
 * `JWT_SECRET`: Kunci rahasia untuk tanda tangan token keamanan JWT.
@@ -38,7 +38,7 @@ Konfigurasi lingkungan yang dibutuhkan (dibuat di `.env` sub-folder `tb-backend/
 ---
 
 ## Next Step
-1. Salin folder `tb-backend/` ke repositori target (tanpa `.git`, `node_modules`, `.env`, `prisma/dev.db`).
+1. Salin folder `server/` ke repositori target (tanpa `.git`, `node_modules`, `.env`, `prisma/dev.db`).
 2. Jalankan `npm install` bersih di folder tujuan.
 3. Jalankan `npx prisma generate` untuk memperbarui Prisma Client.
 4. Buat database SQLite lokal baru dan lakukan seeding data awal dengan `npx prisma db seed`.
