@@ -20,13 +20,16 @@
 | **CS** | Point of Sale (POS) Terminal | **Completed** | Pencarian SKU kilat, kalkulasi otomatis, dan potong stok atomic. |
 | **CS** | Inventory Explorer (Read-only) | **Completed** | CS dapat mengecek ketersediaan stok tanpa bisa melihat HPP barang. |
 | **CS** | Personal Shift History | **Completed** | Kasir memantau riwayat transaksi shift sendiri & cetak ulang struk. |
-| **Repo** | Konsolidasi Repositori Tunggal | **In Progress** | Penyatuan `tb-frontend` & `tb-backend` ke `TB-Toko-Bangunan`. |
+| Repo | Konsolidasi Repositori Tunggal | **Completed** | Penyatuan `tb-frontend` & `tb-backend` ke `TB-Toko-Bangunan`. |
+| Repo | Pengujian Integrasi Lokal | **Pending** | Pengujian sambungan frontend-backend pasca-migrasi belum dijalankan. |
 
 ---
 
 ## 🛠️ Riwayat Aktivitas Terakhir (Last Checkpoint)
-- **Fase 1 - Dokumentasi Awal**: Diinisialisasi di dalam repositori target (`TB-Toko-Bangunan/docs/`). 
-- **Kebersihan File**: Menyiapkan `.gitignore` root untuk mencegah kebocoran `.env`, database lokal SQLite (`dev.db`), serta folder dependencies/build.
+- **Fase 2 - Migrasi Frontend (`tb-frontend`)**: Folder kode frontend berhasil dipindahkan tanpa membawa folder `.git` lama, dependencies, atau file `.env` rahasia. Build turbopack Next.js terverifikasi sukses.
+- **Fase 3 - Migrasi Backend (`tb-backend`)**: Folder kode backend Express & Prisma berhasil dipindahkan. Inisialisasi database SQLite lokal bersih dan seeding berhasil. Uji dev server berjalan lancar pada port `5000`.
+- **Fase 4A - Sinkronisasi Identitas**: Semua dokumen dibersihkan dari nama/path lama yang membingungkan. Menambahkan checklist kesiapan sebelum repo lama boleh dihapus/diarsipkan.
+- **Aturan Keamanan Tambahan**: Repositori lama (`tb-frontend` dan `tb-backend` mandiri) **BELUM BOLEH** dihapus dari GitHub sebelum seluruh checklist di berkas [MIGRATION_PLAN.md](../project/MIGRATION_PLAN.md) terpenuhi.
 
 ---
 

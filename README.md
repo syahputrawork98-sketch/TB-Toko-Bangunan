@@ -1,25 +1,17 @@
 # 🏗️ TB (Toko Bangunan) - Consolidated Repository
 
-Selamat datang di repositori utama dan final untuk **Aplikasi Manajemen Toko Bangunan (TB)**. Repositori ini menggabungkan frontend (Next.js) dan backend (Express.js + Prisma) ke dalam satu struktur folder terpusat untuk mempermudah pemeliharaan, pengembangan, dan penerapan (deployment).
+Selamat datang di repositori utama dan final **TB-Toko-Bangunan**. Repositori tunggal ini menggabungkan seluruh komponen sistem aplikasi Manajemen Toko Bangunan (TB) yang sebelumnya terpisah pada dua repositori mandiri. Setelah migrasi ini selesai, repositori lama (`tb-frontend` dan `tb-backend` di GitHub) berstatus **legacy** (sumber lama) dan tidak lagi menjadi sumber utama pengembangan.
 
 ---
 
-## 📁 Struktur Repositori
+## 📁 Struktur Repositori Terkonsolidasi
 
-```text
-TB-Toko-Bangunan/
-├── README.md            # Dokumentasi utama ini
-├── .gitignore           # Aturan abaikan git root terpusat
-├── docs/                # Seluruh dokumentasi teknis & proses
-│   ├── project/         # Konseptual & Rencana Migrasi
-│   ├── frontend/        # Arsitektur Frontend (Next.js)
-│   ├── backend/         # Arsitektur Backend (Express)
-│   ├── database/        # Skema Relasi Database (Prisma)
-│   ├── development/     # Panduan Pengaturan Lokal
-│   └── history/         # Riwayat Status Fitur
-├── tb-frontend/         # Folder Aplikasi Frontend (Next.js 16)
-└── tb-backend/          # Folder Engine Backend (Express + SQLite/Prisma)
-```
+Seluruh kode sumber dan dokumentasi diatur dalam folder berikut:
+* **`tb-frontend/`**: Kode aplikasi antarmuka web (Next.js 16) yang menyajikan dashboard Admin dan POS CS.
+* **`tb-backend/`**: Kode mesin server (Express.js & Prisma ORM) yang mengelola logika bisnis, autentikasi, dan database.
+* **`docs/`**: Seluruh dokumentasi teknis sistem terpusat (mengadopsi pola dokumentasi terstruktur dari referensi `WK-Workflow-Kit`).
+* **`README.md`**: Panduan navigasi utama ini.
+* **`.gitignore`**: Aturan pengabaian Git root terpusat untuk mengamankan data konfigurasi lokal.
 
 ---
 

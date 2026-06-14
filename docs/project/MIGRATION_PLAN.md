@@ -29,29 +29,42 @@ TB-Toko-Bangunan/
 
 ---
 
-## 🚀 Tahapan Migrasi
+## 🚀 Status Tahapan Migrasi (Migration Status)
 
-### Fase 1: Inisialisasi Dokumentasi Awal (Sedang Berjalan)
-- Membuat struktur direktori `docs/`.
-- Menyiapkan file-file overview dan konfigurasi dasar.
-- Berhenti untuk melaporkan kesiapan dokumen ke user.
-
-### Fase 2: Pemindahan Frontend (`tb-frontend`)
-- Salin folder `tb-frontend` ke target repositori dengan menerapkan daftar eksklusi.
-- Buat file `.env.example` di dalam `tb-frontend/`.
-- Jalankan `npm install` dan pastikan `npm run build` sukses.
-
-### Fase 3: Pemindahan Backend (`tb-backend`)
-- Salin folder `tb-backend` ke target repositori dengan menerapkan daftar eksklusi.
-- Buat file `.env.example` di dalam `tb-backend/`.
-- Jalankan `npm install` bersih.
-- Regenerasi client database menggunakan `npx prisma generate`.
-- Buat database SQLite lokal baru yang bersih dengan `npx prisma db seed`.
-
-### Fase 4: Integrasi & Verifikasi Akhir
-- Jalankan backend dan frontend secara bersamaan.
-- Uji fungsionalitas login admin (`admin`/`admin123`) & CS (`cs`/`cs123`).
-- Uji fungsionalitas POS, pengurangan stok, dan dashboard analitik.
+*   **Fase 1: Inisialisasi Dokumentasi Awal** ➡️ **[COMPLETED]**
+    *   Pembuatan direktori `docs/` dan template overview dasar di target repositori `TB-Toko-Bangunan`.
+*   **Fase 2: Pemindahan Frontend (`tb-frontend`)** ➡️ **[COMPLETED]**
+    *   Pemindahan kode sumber Next.js dari legacy repository.
+    *   Instalasi dependensi bersih dan turbopack build berhasil (`✓ Compiled successfully`).
+    *   Pembuatan berkas `.env.example` ter-track Git.
+*   **Fase 3: Pemindahan Backend (`tb-backend`)** ➡️ **[COMPLETED]**
+    *   Pemindahan kode Express.js & Prisma ORM dari legacy repository.
+    *   Instalasi dependensi bersih.
+    *   Sinkronisasi database SQLite lokal baru (`dev.db`) & data seeder berhasil.
+    *   Uji dev server berjalan lancar pada port `5000`.
+*   **Fase 4A: Sinkronisasi Dokumentasi & Finalisasi Identitas** ➡️ **[COMPLETED]**
+    *   Pembersihan nama dan identitas project yang rancu di dokumen target.
+    *   Pembaruan file status migrasi dan penyusunan checklist hapus repositori lama.
+*   **Fase 4: Integrasi & Verifikasi Akhir** ➡️ **[PENDING]**
+    *   Pengujian cross-connection antara frontend dan backend secara lokal.
+*   **Fase 5: Arsip / Hapus Repositori Lama di GitHub** ➡️ **[PENDING]**
+    *   Tindakan penghapusan/arsip repositori `tb-frontend` dan `tb-backend` lama setelah seluruh sistem terbukti stabil di repositori terpadu `TB-Toko-Bangunan`.
 
 ---
-*Status: Fase 1 - Pembuatan Dokumentasi Awal sedang berlangsung.*
+
+## 📋 Checklist Sebelum Menghapus/Mengarsipkan Repositori Lama
+
+Sebelum repositori legacy `tb-frontend` dan `tb-backend` dihapus dari GitHub, pastikan poin-poin berikut telah dicentang:
+- [x] Repositori `TB-Toko-Bangunan` sudah terunggah paling update di GitHub.
+- [x] Folder `tb-frontend` sudah masuk ke repositori utama.
+- [x] Folder `tb-backend` sudah masuk ke repositori utama.
+- [x] Berkas `.env.example` untuk frontend dan backend sudah tersedia dan ter-commit di Git.
+- [x] Aturan pengabaian Git `.gitignore` telah dipastikan bekerja (tidak ada `.env` asli, `dev.db`, `node_modules`, `.next/`, `dist/`, atau file log yang tidak sengaja ter-commit).
+- [x] Proses compile & build frontend pernah sukses di repositori baru (`npm run build`).
+- [x] Proses compile & build backend pernah sukses di repositori baru (`npm run build`).
+- [x] Seluruh dokumentasi teknis (`docs/`) telah disinkronkan dan bebas dari nama/path lama yang rancu.
+- [ ] Pengujian integrasi minimal (cross-connection lokal) sudah dilakukan dengan sukses (Fase 4).
+- [ ] Persetujuan akhir dari Head of Project untuk penghapusan repositori lama telah diperoleh.
+
+---
+*Status Akhir: Fase 4A - Sinkronisasi Identitas selesai. Siap untuk Fase 4.*
