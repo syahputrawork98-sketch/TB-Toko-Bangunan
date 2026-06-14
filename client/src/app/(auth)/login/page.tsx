@@ -46,6 +46,37 @@ export default function LoginPage() {
     }
   };
 
+  const handleDevLogin = async (usr: string, pwd: string) => {
+    setUsername(usr);
+    setPassword(pwd);
+    setError('');
+    setLoading(true);
+    
+    try {
+      const response = await api.post('/auth/login', { username: usr, password: pwd });
+      const { token, user } = response.data;
+
+      // 1. Store in Zustand Store (Handled persist & Cookies inside setAuth)
+      setAuth(user, token);
+
+      // 2. Redirect based on backend role
+      const roleMap: { [key: string]: string } = {
+        'ADMIN': '/admin',
+        'CS': '/cs/pos'
+      };
+
+      const targetPath = roleMap[user.role] || '/cs/pos';
+      router.push(targetPath);
+      
+    } catch (err: any) {
+      console.error('Login error:', err);
+      const message = err.response?.data?.message || 'Login failed. Connection error or server down.';
+      setError(message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className={styles.wrapper}>
       {/* Premium Technical Corner Accents */}
@@ -84,6 +115,33 @@ export default function LoginPage() {
             {loading ? 'AUTHENTICATING...' : 'ACCESS SYSTEM'}
           </Button>
         </form>
+
+        {/* Dev Persona Login Section */}
+        {(process.env.NODE_ENV === 'development' || process.env.NEXT_PUBLIC_ENABLE_DEV_PERSONA_LOGIN === 'true') && (
+          <div className={styles.devPersonaSection}>
+            <div className={styles.devPersonaDivider}>
+              <span>DEVELOPER SUITE</span>
+            </div>
+            <div className={styles.devPersonaButtons}>
+              <button
+                type="button"
+                onClick={() => handleDevLogin('admin', 'admin123')}
+                disabled={loading}
+                className={styles.devButton}
+              >
+                🔑 Admin Persona
+              </button>
+              <button
+                type="button"
+                onClick={() => handleDevLogin('cs', 'cs123')}
+                disabled={loading}
+                className={styles.devButton}
+              >
+                🔑 CS Persona
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className={styles.footer}>
           <p>CRYPTO-SECURED TERMINAL v1.0</p>

@@ -128,3 +128,69 @@
   font-weight: 800 !important;
   letter-spacing: 0.1em !important;
 }
+
+.devPersonaSection {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.devPersonaDivider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.devPersonaDivider::before,
+.devPersonaDivider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.devPersonaDivider:not(:empty)::before {
+  margin-right: 10px;
+}
+
+.devPersonaDivider:not(:empty)::after {
+  margin-left: 10px;
+}
+
+.devPersonaButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.devButton {
+  flex: 1;
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-transform: uppercase;
+}
+
+.devButton:hover {
+  background-color: #e2e8f0;
+  color: #1e293b;
+  border-color: #cbd5e1;
+}
+
+.devButton:active {
+  transform: scale(0.98);
+}
+

@@ -20,6 +20,7 @@ Seluruh rincian teknis mendalam mengenai antarmuka, endpoint API, dan struktur d
 | **F07** | CS Inventory Read-only | Client / Server | CS (Staff) | Modul pencarian stok dan ketersediaan barang untuk staff kasir tanpa memperlihatkan field harga pokok (HPP). | **Draft** | [Detail](features/F07_CS_INVENTORY_READ_ONLY.md) |
 | **F08** | CS Transaction History | Client / Server | CS (Staff) | Modul riwayat transaksi penjualan mandiri milik kasir aktif pada shift berjalan serta fitur cetak ulang struk. | **Draft** | [Detail](features/F08_CS_TRANSACTION_HISTORY.md) |
 | **F09** | CS Profile | Client / Server | CS (Staff) | Halaman pengaturan profil data pribadi dasar dan pembaruan password untuk akun CS yang sedang masuk. | **Draft** | [Detail](features/F09_CS_PROFILE.md) |
+| **F10** | Dev Persona Login | Security / Auth | Developer | Panel bantuan login cepat untuk Admin dan CS persona khusus mode development. | **Implemented** | [Detail](features/F10_DEVELOPER_SUITE_PERSONA_ACCOUNT_LOGIN.md) |
 
 ---
 
