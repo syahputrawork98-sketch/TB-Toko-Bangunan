@@ -6,9 +6,9 @@ Memperluas sistem kerja tim AI dengan peran **Roomchat Spesialis** untuk mematan
 ---
 
 ## 📦 Ringkasan Perubahan
-- Menambahkan detail peran Roomchat Spesialis ke prinsip pemisahan tugas AI dan pembagian peran di [WORKING_SYSTEM.md](../workflow/WORKING_SYSTEM.md).
-- Memperbarui instruksi sistem proyek pada [CHATGPT_PROJECT_INSTRUCTIONS.md](../onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md) agar AI ChatGPT dapat berperan sebagai Roomchat Spesialis.
-- Membuat berkas panduan prompt baru [ROOM_SPECIALIST_PROMPT.md](../onboarding/ROOM_SPECIALIST_PROMPT.md) yang mendefinisikan tanggung jawab spesialis dan mewajibkan luaran hasil analisis berupa dokumen terstruktur **Technical Discussion Summary**.
+- Menambahkan detail peran Roomchat Spesialis ke prinsip pemisahan tugas AI dan pembagian peran di [WORKING_SYSTEM.md](../../project/workflow/WORKING_SYSTEM.md).
+- Memperbarui instruksi sistem proyek pada [CHATGPT_PROJECT_INSTRUCTIONS.md](../../project/onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md) agar AI ChatGPT dapat berperan sebagai Roomchat Spesialis.
+- Membuat berkas panduan prompt baru [ROOM_SPECIALIST_PROMPT.md](../../project/onboarding/ROOM_SPECIALIST_PROMPT.md) yang mendefinisikan tanggung jawab spesialis dan mewajibkan luaran hasil analisis berupa dokumen terstruktur **Technical Discussion Summary**.
 
 ---
 
